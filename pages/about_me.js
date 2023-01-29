@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Roboto } from '@next/font/google'
 import { Oswald } from '@next/font/google'
 
@@ -7,7 +8,7 @@ import { Oswald } from '@next/font/google'
 const roboto = Roboto({ subsets: ['latin'], weight: ['300'] })
 const oswald = Oswald({ subsets: ['latin'] })
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <>
       <Head>
@@ -20,13 +21,13 @@ export default function Home() {
         <div className="flex flex-row justify-between text-sm  bg-vlightpurple">
 
           <div className="p-10 shrink-0">
-          <a href="/"> <Image
+          <Link href="/"> <Image
               src="/logo.svg"
               alt="Kristin Francis"
               width={100}
               height={24}
               priority
-            /></a>
+            /></Link>
           </div>
 
           <div>
@@ -37,7 +38,7 @@ export default function Home() {
                   ['ABOUT', '/about_me'],
                   ['CONTACT', '/contact'],
               ].map(([title, url]) => (
-                <a href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB]  hover:text-slate-900">{title}</a>
+                <Link href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB]  hover:text-slate-900">{title}</Link>
               ))}
             </nav>
           </div>
@@ -75,7 +76,7 @@ export default function Home() {
             </div>
           </div>
                 <div className="font-light text-base pt-5 leading-6">
-                Over the past ten years I’ve worked with B2B and B2C companies, managing marketing tech stacks, analyzing data, optimizing campaigns and much more. I have a passion to dive into a problem, review feedback and determine the best path forward whether it’s a process or a campaign optimization. I've worked for mostly smaller teams which has given me the opportunity to work in many different areas of marketing, starting off in design to event management then to email marketing and demand generation to marketing operations.  </div>
+                Over the past ten years I've worked with B2B and B2C companies, managing marketing tech stacks, analyzing data, optimizing campaigns and much more. I have a passion to dive into a problem, review feedback and determine the best path forward whether it's a process or a campaign optimization. I've worked for mostly smaller teams which has given me the opportunity to work in many different areas of marketing, starting off in design to event management then to email marketing and demand generation to marketing operations.  </div>
               </div>
               <div className="font-light text-base pt-5 leading-6">
               In 2022, I was part of the tech layoffs so was able to take some time to evaluate what I enjoyed most about my roles. The two things that stood out the most were problem-solving and design. So my goal in 2023 is to find a full time position that's focused on user experience. In the meantime, I'm available for contract work!   </div>
@@ -135,7 +136,7 @@ export default function Home() {
           Let’s make something special. 
           </div>
           <div className="self-center">
-          <a href="/contact"><button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">CONTACT ME</button></a>
+          <Link href="/contact"><button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">CONTACT ME</button></Link>
           </div>
         </div>
           
@@ -149,7 +150,7 @@ export default function Home() {
                   ['ABOUT', '/about_me'],
                   ['CONTACT', '/contact'],
                 ].map(([title, url]) => (
-                  <a href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</a>
+                  <Link href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
                 ))}
               </nav>
             </div>

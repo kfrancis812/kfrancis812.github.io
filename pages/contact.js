@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Roboto } from '@next/font/google'
 import { Oswald } from '@next/font/google'
 
@@ -16,17 +17,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.jpg" />
       </Head>
-      <main className="flex flex-col">
+      <main className="flex flex-col w-full">
         <div className="flex flex-row justify-between text-sm  bg-vlightpurple">
 
           <div className="p-10 shrink-0">
-          <a href="/"> <Image
+          <Link href="/"> <Image
               src="/logo.svg"
               alt="Kristin Francis"
               width={100}
               height={24}
               priority
-            /></a>
+            /></Link>
           </div>
 
           <div>
@@ -37,7 +38,7 @@ export default function Home() {
                   ['ABOUT', '/about_me'],
                   ['CONTACT', '/contact'],
               ].map(([title, url]) => (
-                <a href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB]  hover:text-slate-900">{title}</a>
+                <Link href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB]  hover:text-slate-900">{title}</Link>
               ))}
             </nav>
           </div>
@@ -63,7 +64,7 @@ export default function Home() {
                   ['ABOUT', '/about_me'],
                   ['CONTACT', '/contact'],
                 ].map(([title, url]) => (
-                  <a href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</a>
+                  <Link href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
                 ))}
               </nav>
             </div>

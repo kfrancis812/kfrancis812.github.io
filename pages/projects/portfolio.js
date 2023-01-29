@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Roboto } from '@next/font/google'
 import { Oswald } from '@next/font/google'
 

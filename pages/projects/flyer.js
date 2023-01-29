@@ -167,7 +167,7 @@ export default function Home() {
                 What I did/didn’t do
               </div>
               <div className="font-light text-base pt-2 leading-5">
-               I designed the piece from a blank slate. I didn't take the photos or write out the copy.</div>
+               I designed the piece from a blank slate. I didn&apos;t take the photos or write out the copy.</div>
 
             </div>
           </div>

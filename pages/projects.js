@@ -48,7 +48,7 @@ export default function Home() {
           Projects & Work
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center">
-                Below are just a select few pieces of work and projects that I've created or participated in. 
+                Below are just a select few pieces of work and projects that I&apos;ve created or participated in. 
           </div>
 
 

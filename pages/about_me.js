@@ -76,10 +76,10 @@ export default function AboutMe() {
             </div>
           </div>
                 <div className="font-light text-base pt-5 leading-6">
-                Over the past ten years I've worked with B2B and B2C companies, managing marketing tech stacks, analyzing data, optimizing campaigns and much more. I have a passion to dive into a problem, review feedback and determine the best path forward whether it's a process or a campaign optimization. I've worked for mostly smaller teams which has given me the opportunity to work in many different areas of marketing, starting off in design to event management then to email marketing and demand generation to marketing operations.  </div>
+                Over the past ten years I&apos;ve worked with B2B and B2C companies, managing marketing tech stacks, analyzing data, optimizing campaigns and much more. I have a passion to dive into a problem, review feedback and determine the best path forward whether it's a process or a campaign optimization. I&apos;ve worked for mostly smaller teams which has given me the opportunity to work in many different areas of marketing, starting off in design to event management then to email marketing and demand generation to marketing operations.  </div>
               </div>
               <div className="font-light text-base pt-5 leading-6">
-              In 2022, I was part of the tech layoffs so was able to take some time to evaluate what I enjoyed most about my roles. The two things that stood out the most were problem-solving and design. So my goal in 2023 is to find a full time position that's focused on user experience. In the meantime, I'm available for contract work!   </div>
+              In 2022, I was part of the tech layoffs so was able to take some time to evaluate what I enjoyed most about my roles. The two things that stood out the most were problem-solving and design. So my goal in 2023 is to find a full time position that&apos;s focused on user experience. In the meantime, I&apos;m available for contract work!   </div>
               <div className="font-light text-base pt-5 leading-6">
               I live in Louisville, Kentucky with my husband and our three fur-babies. I love to travel and enjoy exploring the outdoors. In my down time, I enjoy reading, puzzles, playing ultimate frisbee, and video games.   </div>
 

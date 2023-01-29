@@ -87,7 +87,7 @@ export default function Home() {
                   The Problem & Current Situation
                 </div>
                 <div className="font-light text-xs pt-2 leading-4">
-                Since I didn't have my portfolio created yet, I had to determine what my style, colors, and branding would be. </div>
+                Since I didn&apos;t have my portfolio created yet, I had to determine what my style, colors, and branding would be. </div>
 
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function Home() {
                 The Process
               </div>
               <div className="font-light text-xs pt-2 leading-4">
-                I started by getting inspiration on dribble and behance and creating a moodboard. From there I started working on designs. Personally I like to keep most of my designs on the doc so I can see all the variations and changes in case there's something I want to go back to. Then I can start narrowing it down to my favorites and get feedback from others. 
+                I started by getting inspiration on dribble and behance and creating a moodboard. From there I started working on designs. Personally I like to keep most of my designs on the doc so I can see all the variations and changes in case there&apos;s something I want to go back to. Then I can start narrowing it down to my favorites and get feedback from others. 
               </div>
             </div>
           </div>

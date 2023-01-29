@@ -21,13 +21,13 @@ export default function Home() {
         <div className="flex flex-row justify-between text-sm bg-vlightpurple">
 
           <div className="p-10 shrink-0">
-            <a href="/"><Image
+            <Link href="/"><Image
               src="/logo.svg"
               alt="Kristin Francis"
               width={100}
               height={24}
               priority
-            /></a>
+            /></Link>
           </div>
 
           <div>
@@ -38,7 +38,7 @@ export default function Home() {
                 ['ABOUT', '/about_me'],
                 ['CONTACT', '/contact'],
               ].map(([title, url]) => (
-                <a href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</a>
+                <Link href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
               ))}
             </nav>
           </div>
@@ -87,7 +87,7 @@ export default function Home() {
                   The Problem & Current Situation
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                  Since I've been mainly focused in marketing, unfortunately, I don't have a lot of samples of my work that I can share so I decided to use my portfolio as a chance to create something from scratch and show my process. </div>
+                  Since I&apos;ve been mainly focused in marketing, unfortunately, I don&apos;t have a lot of samples of my work that I can share so I decided to use my portfolio as a chance to create something from scratch and show my process. </div>
 
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function Home() {
                 Created landing pages with focused messaging based on prior page path. This improved ad conversion rate by 125%.
               </div>
               <div className="self-end">
-                <a href="/projects/landingpage"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral text-[12px] self-end tracking-wide">LEARN MORE</button></a>
+                <Link href="/projects/landingpage"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function Home() {
                 Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
               </div>
               <div className="self-end">
-                <a href="/projects/flyer"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] tracking-wide">LEARN MORE</button></a>
+                <Link href="/projects/flyer"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] tracking-wide">LEARN MORE</button></Link>
               </div>
             </div>
           </div>
@@ -227,7 +227,7 @@ export default function Home() {
                 ['ABOUT', '/about_me'],
                 ['CONTACT', '/contact'],
               ].map(([title, url]) => (
-                <a href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</a>
+                <Link href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
               ))}
             </nav>
           </div>

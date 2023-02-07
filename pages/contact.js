@@ -50,7 +50,7 @@ export default function Home() {
 
               </div>
               <div className="pt-3 md:pl-20 pl-10 pr-10 text-xl font-light leading-7 text-darkpgray">
-              Let’s make something special. Whether it's creating a process or desiging a user experience, I'm ready to dive in and help solve problems and optimize.
+              Let&apos;s make something special. Whether it&apos;s creating a process or desiging a user experience, I&apos;m ready to dive in and help solve problems and optimize.
 
               </div>
               <div className="md:pl-20 pl-10 pt-5 flex flex-row">

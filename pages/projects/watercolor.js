@@ -80,7 +80,7 @@ export default function Home() {
                   Project Description
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                 During the beginning of the pandemic, I purchased a subscription to Let's Make Art Watercolor and fell in love with it.      </div>
+                 During the beginning of the pandemic, I purchased a subscription to Let&apos;s Make Art Watercolor and fell in love with it.      </div>
               </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
                 <div className="font-display text-lg">
@@ -106,7 +106,7 @@ export default function Home() {
             <div className="flex flex-col pt-5 pr-5">
               
               <div className="font-light text-base pt-2 leading-5">
-                I enjoy creating realistic watercolor paintings so I usually start from a photo. I use a lightbox to trace the photo onto watercolor paper. I've tried a lot of different paints and paper but my go tos are Arches 140lb and Winsor & Newton Professional Watcolor paints. 
+                I enjoy creating realistic watercolor paintings so I usually start from a photo. I use a lightbox to trace the photo onto watercolor paper. I&apos;ve tried a lot of different paints and paper but my go tos are Arches 140lb and Winsor & Newton Professional Watcolor paints. 
               </div>
             </div>
           </div>
@@ -160,10 +160,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
               <div className="font-display text-lg">
-                What I did/didn’t do
+                What I did/didn&apos;t do
               </div>
               <div className="font-light text-base pt-2 leading-5">
-               Most time I use royalty-free images or photos I've taken myself. I ultize a third party vendor to create prints of my paintings. </div>
+               Most time I use royalty-free images or photos I&apos;ve taken myself. I ultize a third party vendor to create prints of my paintings. </div>
 
             </div>
           </div>

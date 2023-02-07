@@ -79,14 +79,14 @@ export default function Home() {
                   Project Description
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                  For the past ten years, I've created landing pages with tools such as unbounce and wordpress. Then optimized the pages by a/b testings copy, images, and layout. Recently I've started desiging pages from scratch as seen above.</div>
+                  For the past ten years, I&apos;ve created landing pages with tools such as unbounce and wordpress. Then optimized the pages by a/b testings copy, images, and layout. Recently I&apos;ve started desiging pages from scratch as seen above.</div>
                   </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
                 <div className="font-display text-lg">
                   The Problem & Current Situation
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                Unfortunately, I don't have a lot of samples of my work that I can share so I decided to design a few landing pages as examples. </div>
+                Unfortunately, I don&apos;t have a lot of samples of my work that I can share so I decided to design a few landing pages as examples. </div>
 
               </div>
             </div>
@@ -160,11 +160,11 @@ export default function Home() {
                 The Results
               </div>
               <div className="font-light text-base pt-2 leading-5">
-                In the end, I created over twenty landing pages and more than 100 tests. This project resulted in an improved conversion rate of 125%.</div>
+                Throughout my career I&apos;ve created numerous  This project resulted in an improved conversion rate of 125%.</div>
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
               <div className="font-display text-lg">
-                What I did/didn’t do
+                What I did/didn&apos;t do
               </div>
               <div className="font-light text-base pt-2 leading-5">
                 I worked closely with the design team to make sure everything stayed on brand. The pages were started from a template. I created all the landings pages and set up all the tests.</div>

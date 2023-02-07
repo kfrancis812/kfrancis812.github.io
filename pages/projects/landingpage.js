@@ -48,13 +48,12 @@ export default function Home() {
             Landing Page Creation & Optimization
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center">
-            Created landing pages with focused messaging based on prior page path. Improving ad conversion rate by 125%.
-
+            Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
           </div>
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">
             <div className="w-full bg-gradient-to-tr from-tan to-vlightpurple rounded-lg ">
               <Image className="w-full"
-                src="/gt-landingpage.png"
+                src="/landingpage_mockup.png"
                 alt="Landing Page"
                 width={5000}
                 height={3000}
@@ -80,14 +79,14 @@ export default function Home() {
                   Project Description
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                  An online platform where customers can rent menswears without visiting a store. This platform allows you to easily rent  formalwear by entering a few measurements.                    </div>
-              </div>
+                  For the past ten years, I've created landing pages with tools such as unbounce and wordpress. Then optimized the pages by a/b testings copy, images, and layout. Recently I've started desiging pages from scratch as seen above.</div>
+                  </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
                 <div className="font-display text-lg">
                   The Problem & Current Situation
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                  The problem was low conversion rate of paid ads. To start, I researched to understand what ads were running and what landing pages were being used. During research, I found that click to conversion rate was low. All ads were being directed to the homepage and although there was a good click through rate, the conversion rate once on the page was low.                  </div>
+                Unfortunately, I don't have a lot of samples of my work that I can share so I decided to design a few landing pages as examples. </div>
 
               </div>
             </div>
@@ -108,33 +107,36 @@ export default function Home() {
                 The Process
               </div>
               <div className="font-light text-base pt-2 leading-5">
-                I started by creating individual landing pages based on each ad messaging. To create the pages, I started with a template and made some adjustments. Creating images based on the content, extending photos and making edits when needed. Once the pages were live I set up A/B testing on headlines, images, and overall length/content to see how I could continue to improve the conversion rate.
+               To start, I create a moodboard for inspiration and lo-fidelty wireframes or drawings. Then I begin designing the mobile version of the landing page to ensure the design will work for mobile. Then I work on the desktop version and continue to make tweaks and adjustments.        </div>
+          
+              <div className="font-light text-base pt-2 leading-5">
+               When optimizing, I start by reviewing the performance of the pages such as click rate, click through rate, and conversion rate. I identify areas for opportunity and start setting up tests.       
               </div>
             </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pt-10 pb-10 ">
-            <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
+            <div className=" w-full bg-[#F0E8EB] rounded-lg snap-center">
               <Image
-                src="/gt_1.png"
+                src="/cat_rescue.png"
                 alt="Landing Page 1"
                 width={721}
                 height={618}
                 priority
               />
             </div>
-            <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
+            <div className=" w-full bg-[#F0E8EB] rounded-lg snap-center">
               <Image
-                src="/gt_2.png"
+                src="/bikeshop_mockup.png"
                 alt="Landing Page 2"
                 width={721}
                 height={618}
                 priority
               />
             </div>
-            <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
+            <div className="w-full bg-[#F0E8EB] rounded-lg snap-center">
               <Image
-                src="/gt_3.png"
+                src="/travelagency_v2.png"
                 alt="Landing Page 3"
                 width={721}
                 height={618}
@@ -179,13 +181,13 @@ export default function Home() {
           </div>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-          <div className="flex flex-col w-full bg-tan rounded-lg ">
+        <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div >
               <Image className="w-full"
-                src="/myportfolio.png"
+                src="/portfolio_mockup_sm_final.png"
                 alt="Portfolio"
-                width={568}
-                height={365}
+                width={1136}
+                height={772}
 
               />
             </div>
@@ -196,12 +198,21 @@ export default function Home() {
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
               </div>
-              <div className="self-end">
-              <Link href="/projects/portfolio"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col w-full bg-tan rounded-lg mt-16 -mt-0">
+          </div></Link>
+          <Link href="/projects/flyer"><div className="flex flex-col w-full bg-tan rounded-lg mt-16 -mt-0">
             <div>
               <Image className="w-full"
                 src="/bridal_show_small_2.png"
@@ -218,14 +229,24 @@ export default function Home() {
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
               </div>
-              <div className="self-end">
-              <Link href="/projects/flyer"> <button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button> </Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
+          </div></Link>
 
 
         </div>
+        
         <div className="flex flex-row flex-wrap justify-between bg-darkpurple mt-28">
           <div>
             <nav className=" space-x-4 p-10 font-light" >
@@ -240,7 +261,7 @@ export default function Home() {
             </nav>
           </div>
           <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright ©2023 All rights reserved
           </div>
         </div>
 

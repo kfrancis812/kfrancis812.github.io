@@ -52,7 +52,7 @@ export default function Home() {
 
           </div>
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">
-            <div className="w-full bg-gradient-to-tr from-tan to-vlight ">  <Image className="w-full"
+            <div className="w-full bg-gradient-to-tr from-tan to-vlightpurple ">  <Image className="w-full"
                 src="/bridal_show_large.png"
                 alt="Flyer"
                 width={5000}
@@ -115,11 +115,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pt-10 pb-10 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-10 pb-10 ">
             <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
               <Image
-                src="/gt_1.png"
-                alt="Landing Page 1"
+                src="/bridal-flyer-front.jpg"
+                alt="Bridal Show Flyer Mockup Front"
                 width={721}
                 height={618}
                 priority
@@ -127,22 +127,14 @@ export default function Home() {
             </div>
             <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
               <Image
-                src="/gt_2.png"
-                alt="Landing Page 2"
+                src="/bridal-flyer_back.jpg"
+                alt="Bridal Show Flyer Mockup Back"
                 width={721}
                 height={618}
                 priority
               />
             </div>
-            <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
-              <Image
-                src="/gt_3.png"
-                alt="Landing Page 3"
-                width={721}
-                height={618}
-                priority
-              />
-            </div>
+        
 
 
 
@@ -181,10 +173,10 @@ export default function Home() {
           </div>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-          <div className="flex flex-col w-full bg-tan rounded-lg ">
+        <Link href="/projects/landingpage"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div  >
               <Image className="w-full"
-                src="/gt-landingpage.png"
+                src="/landingpage_small.png"
                 alt="Landing Page"
                 width={568}
                 height={365}
@@ -192,39 +184,58 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display">
+              <div className="font-display text-lg text-neutral-600">
                 Landing Page Creation & Optimization
               </div>
-              <div className="font-light text-xs pt-2 leading-4 pb-5 ">
-                Created landing pages with focused messaging based on prior page path. This improved ad conversion rate by 125%.
+              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
+              Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
+          
               </div>
-              <div className="self-end">
-              <Link href="/projects/landingpage"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col w-full bg-tan rounded-lg ">
+          </div></Link>
+          <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div >
               <Image className="w-full"
-                src="/portfolio_small.png"
+                src="/portfolio_mockup_sm_final.png"
                 alt="Portfolio"
-                width={568}
-                height={365}
+                width={1136}
+                height={772}
 
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
-              <div className="font-display">
+              <div className="font-display text-lg text-neutral-600">
                 My Brand: Portfolio
               </div>
-              <div className="font-light text-xs pt-2 leading-4 pb-5 ">
+              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
               </div>
-              <div className="self-end">
-              <Link href="/projects/portfolio"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
+          </div></Link>
 
 
         </div>
@@ -242,7 +253,7 @@ export default function Home() {
             </nav>
           </div>
           <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright ©2023 All rights reserved
           </div>
         </div>
 

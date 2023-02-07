@@ -54,7 +54,7 @@ export default function Home() {
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">
             <div className="w-full bg-gradient-to-tr from-tan to-vlightpurple rounded-lg ">
               <Image className="w-full"
-                src="/watercolor_mockup.png"
+                src="/watercolor_mockup_hero.png"
                 alt="Watercolor"
                 width={5000}
                 height={3500}
@@ -80,14 +80,14 @@ export default function Home() {
                   Project Description
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                  An online platform where customers can rent menswears without visiting a store. This platform allows you to easily rent  formalwear by entering a few measurements.                    </div>
+                 During the beginning of the pandemic, I purchased a subscription to Let's Make Art Watercolor and fell in love with it.      </div>
               </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
                 <div className="font-display text-lg">
-                  The Problem & Current Situation
+                  Current Situation
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                  The problem was low conversion rate of paid ads. To start, I researched to understand what ads were running and what landing pages were being used. During research, I found that click to conversion rate was low. All ads were being directed to the homepage and although there was a good click through rate, the conversion rate once on the page was low.                  </div>
+                  From there I kept painting and learning more through youtube videos and classes at a local art store. I recently set up an etsy store to sell prints.                  </div>
 
               </div>
             </div>
@@ -99,16 +99,14 @@ export default function Home() {
             <div className="h-0.5 w-5 bg-[#D9D9D9]">
             </div>
             <div className="font-display text-2xl font-normal pl-2">
-              The Solution
+              The Process
             </div>
           </div>
           <div className="flex flex-row flex-wrap justify-between">
             <div className="flex flex-col pt-5 pr-5">
-              <div className="font-display text-lg">
-                The Process
-              </div>
+              
               <div className="font-light text-base pt-2 leading-5">
-                I started by creating individual landing pages based on each ad messaging. To create the pages, I started with a template and made some adjustments. Creating images based on the content, extending photos and making edits when needed. Once the pages were live I set up A/B testing on headlines, images, and overall length/content to see how I could continue to improve the conversion rate.
+                I enjoy creating realistic watercolor paintings so I usually start from a photo. I use a lightbox to trace the photo onto watercolor paper. I've tried a lot of different paints and paper but my go tos are Arches 140lb and Winsor & Newton Professional Watcolor paints. 
               </div>
             </div>
           </div>
@@ -158,14 +156,14 @@ export default function Home() {
                 The Results
               </div>
               <div className="font-light text-base pt-2 leading-5">
-                In the end, I created over twenty landing pages and more than 100 tests. This project resulted in an improved conversion rate of 125%.</div>
+                I create high resolution scans of the paintings. Once scanned I use Affinity Photo to make slight adjustments. </div>
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
               <div className="font-display text-lg">
                 What I did/didn’t do
               </div>
               <div className="font-light text-base pt-2 leading-5">
-                I worked closely with the design team to make sure everything stayed on brand. The pages were started from a template. I created all the landings pages and set up all the tests.</div>
+               Most time I use royalty-free images or photos I've taken myself. I ultize a third party vendor to create prints of my paintings. </div>
 
             </div>
           </div>
@@ -179,10 +177,10 @@ export default function Home() {
           </div>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-        <div className="flex flex-col w-full bg-tan rounded-lg ">
+        <Link href="/projects/landingpage"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div  >
               <Image className="w-full"
-                src="/gt-landingpage.png"
+                src="/landingpage_small.png"
                 alt="Landing Page"
                 width={568}
                 height={365}
@@ -194,35 +192,54 @@ export default function Home() {
                 Landing Page Creation & Optimization
               </div>
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
-                Created landing pages with focused messaging based on prior page path. This improved ad conversion rate by 125%.
+              Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
+          
               </div>
-              <div className="self-end">
-              <Link href="/projects/landingpage"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col w-full bg-tan rounded-lg">
-            <div>
-              <Image className="w-full"
-                src="/bridal_show_small_2.png"
-                alt="Bridal Show Flyer"
-                width={568}
-                height={365}
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
 
               />
             </div>
-            <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600">
-                Bridal Show Flyer
-              </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
-                Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
-              </div>
-              <div className="self-end">
-              <Link href="/projects/flyer"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
               </div>
             </div>
-          </div>
+          </div></Link>
+          <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg ">
+            <div >
+              <Image className="w-full"
+                src="/portfolio_mockup_sm_final.png"
+                alt="Portfolio"
+                width={1136}
+                height={772}
+
+              />
+            </div>
+            <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
+              <div className="font-display text-lg text-neutral-600">
+                My Brand: Portfolio
+              </div>
+              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+                Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
+              </div>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
+              </div>
+            </div>
+          </div></Link>
 
 
         </div>
@@ -240,7 +257,7 @@ export default function Home() {
             </nav>
           </div>
           <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright ©2023 All rights reserved
           </div>
         </div>
 

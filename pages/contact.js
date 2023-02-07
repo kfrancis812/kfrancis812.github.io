@@ -43,17 +43,34 @@ export default function Home() {
             </nav>
           </div>
         </div>
-        <div className="flex flex-col pt-20 pb-20">
-          <div className="font-display text-4xl font-normal text-center">
-          Interest peaked? 🤩 
-          </div>
-          <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center">
-          Let’s make something special. 
-          </div>
-          
+        <div className="flex flex-row flex-wrap justify-between text-sm">
+            <div className="flex flex-col md:w-6/12 pb-10 md:pb-20 ">
+              <div className="pt-20 md:pl-20 pl-10 font-display text-4xl font-normal text-darkpgray">
+                Interest <span className="text-[#795A95]"> peaked?</span> 🤩
 
-        </div>
-        
+              </div>
+              <div className="pt-3 md:pl-20 pl-10 pr-10 text-xl font-light leading-7 text-darkpgray">
+              Let’s make something special. Whether it's creating a process or desiging a user experience, I'm ready to dive in and help solve problems and optimize.
+
+              </div>
+              <div className="md:pl-20 pl-10 pt-5 flex flex-row">
+                <Link href="mailto:kristinfrancisdesign@gmail.com"><button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">EMAIL ME</button></Link>
+                
+              </div>
+            </div>
+            <div className="pr-10 md:w-6/12 pl-10 md:pt-16 md:pb-20 pb-10">
+
+              <Image
+                src="/contact_lizard_v3.png"
+                alt="Kristin Francis"
+                width={600}
+                height={640}
+
+              />
+
+
+            </div>
+          </div>
         
         <div className="flex flex-row flex-wrap justify-between bg-darkpurple ">
           <div>
@@ -69,7 +86,7 @@ export default function Home() {
               </nav>
             </div>
             <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright ©2023 All rights reserved
               </div>          
             </div>
         

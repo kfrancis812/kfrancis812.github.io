@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Business Cards</title>
-        <meta name="description" content="Business Cards" />
+        <title>Portfolio</title>
+        <meta name="description" content="My Brand: Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.jpg" />
       </Head>
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex flex-row justify-between text-sm bg-vlightpurple">
 
           <div className="p-10 shrink-0">
-          <Link href="/"><Image
+            <Link href="/"><Image
               src="/logo.svg"
               alt="Kristin Francis"
               width={100}
@@ -48,16 +48,15 @@ export default function Home() {
             My Brand: Business Cards
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center">
-            Designed business cards based on my portfolio and brand.
-
+          Designed my logo, brand and style guides for my portfolio and buisness cards.
           </div>
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">
-            <div className="w-full bg-gradient-to-tr from-tan to-vlightpurple rounded-lg ">
-              <Image className="w-full rounded-lg"
-                src="/business_cards.jpg"
-                alt="Landing Page"
-                width={568}
-                height={365}
+            <div className="w-full bg-tan rounded-lg ">
+              <Image className="w-full"
+                src="/business_card_lg_v3.png"
+                alt="Business Cards"
+                width={5000}
+                height={3000}
 
               />
             </div>
@@ -70,24 +69,26 @@ export default function Home() {
             <div className="flex flex-row items-center">
               <div className="h-0.5 w-5 bg-[#D9D9D9]">
               </div>
-              <div className="font-display text-2xl font-normal pl-2">
+              <div className="font-display text-3xl font-normal pl-2">
                 Overview
               </div>
             </div>
             <div className="flex flex-row flex-wrap justify-between">
               <div className="flex flex-col pt-5 md:w-6/12 pr-5">
-                <div className="font-display">
+                <div className="font-display text-lg">
                   Project Description
                 </div>
-                <div className="font-light text-xs pt-2 leading-4">
-                  I needed updated business cards so that I had something to share when I was networking and meeting other creative people.</div>
+                <div className="font-light text-base pt-2 leading-5">
+                Before I created my portfolio and business cards I needed to create a logo, branding, and colors.
+                   </div>
               </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
-                <div className="font-display">
+                <div className="font-display text-lg">
                   The Problem & Current Situation
                 </div>
-                <div className="font-light text-xs pt-2 leading-4">
-                Since I didn&apos;t have my portfolio created yet, I had to determine what my style, colors, and branding would be. </div>
+                <div className="font-light text-base pt-2 leading-5">
+                This was a complete redesign so I had a blank slate to start from. 
+                   </div>
 
               </div>
             </div>
@@ -98,44 +99,36 @@ export default function Home() {
           <div className="flex flex-row items-center">
             <div className="h-0.5 w-5 bg-[#D9D9D9]">
             </div>
-            <div className="font-display text-2xl font-normal pl-2">
+            <div className="font-display text-3xl font-normal pl-2">
               The Solution
             </div>
           </div>
           <div className="flex flex-row flex-wrap justify-between">
             <div className="flex flex-col pt-5 pr-5">
-              <div className="font-display">
+              <div className="font-display text-lg">
                 The Process
               </div>
-              <div className="font-light text-xs pt-2 leading-4">
-                I started by getting inspiration on dribble and behance and creating a moodboard. From there I started working on designs. Personally I like to keep most of my designs on the doc so I can see all the variations and changes in case there&apos;s something I want to go back to. Then I can start narrowing it down to my favorites and get feedback from others. 
+              <div className="font-light text-base pt-2 leading-5">
+                First I started by creating a moodboard of colors and logo inspiration. From there I played around with different fonts for the logo and color schemes. Once I nailed down a logo and color scheme I started desiginging my business cards.
               </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pt-10 pb-10 ">
-            <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
-              <Image
-                src="/gt_1.png"
-                alt="Landing Page 1"
-                width={721}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 pt-10 pb-10">
+            <div className="pt-10  bg-[#F0E8EB] rounded-lg p-5  w-full">
+              <Image className="w-full"
+                src="/logo_v3.png"
+                alt="Logos"
+                width={400}
                 height={618}
                 priority
               />
             </div>
-            <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
-              <Image
-                src="/gt_2.png"
-                alt="Landing Page 2"
-                width={721}
-                height={618}
-                priority
-              />
-            </div>
-            <div className="pt-5 w-full bg-[#F0E8EB] rounded-lg p-5 snap-center">
-              <Image
-                src="/gt_3.png"
-                alt="Landing Page 3"
+
+            <div className="pt-5 bg-[#F0E8EB] rounded-lg col-span-2 p-5 w-full ">
+              <Image className="w-full drop-shadow-md  "
+                src="/business_cards_process.png"
+                alt="Business Card Process"
                 width={721}
                 height={618}
                 priority
@@ -154,18 +147,19 @@ export default function Home() {
 
           <div className="flex flex-row flex-wrap justify-between">
             <div className="flex flex-col pt-5 md:w-6/12 pr-5">
-              <div className="font-display">
+              <div className="font-display text-lg">
                 The Results
               </div>
-              <div className="font-light text-xs pt-2 leading-4">
-                New brand, colors and business cards created!</div>
+              <div className="font-light text-base pt-2 leading-5">
+                I have a logo, brand, and color scheme for any of my personal projects.</div>
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
-              <div className="font-display">
+              <div className="font-display text-lg">
                 What I did/didn’t do
               </div>
-              <div className="font-light text-xs pt-2 leading-4">
-                This project was handled by me from start to finish.</div>
+              <div className="font-light text-base pt-2 leading-5">
+                For this project I designed all the assets from the logo to business cards.
+                </div>
 
             </div>
           </div>
@@ -174,35 +168,15 @@ export default function Home() {
         <div className="flex flex-row items-center pt-20 md:pl-20 pl-10 pr-10 md:pr-20 ">
           <div className="h-0.5 w-5 bg-[#D9D9D9]">
           </div>
-          <div className="font-display text-2xl font-normal pl-2">
+          <div className="font-display text-3xl font-normal pl-2">
             Check out another project
           </div>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-          <div className="flex flex-col w-full bg-tan rounded-lg ">
-            <div >
+        <Link href="/projects/landingpage"><div className="flex flex-col w-full bg-tan rounded-lg ">
+            <div  >
               <Image className="w-full"
-                src="/myportfolio.png"
-                alt="Portfolio"
-                width={568}
-                height={365}
-
-              />
-            </div>
-            <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
-              <div className="font-display">
-                My Brand: Portfolio
-              </div>
-              <div className="font-light text-xs pt-2 leading-4 pb-5 ">
-                Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
-              </div>
-              <button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button>
-            </div>
-          </div>
-          <div className="flex flex-col w-full bg-tan rounded-lg mt-16 -mt-0">
-            <div>
-              <Image className="w-full"
-                src="/bridal_show_2.png"
+                src="/landingpage_small.png"
                 alt="Landing Page"
                 width={568}
                 height={365}
@@ -210,15 +184,56 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display">
-                Bridal Show Flyer
+              <div className="font-display text-lg text-neutral-600">
+                Landing Page Creation & Optimization
               </div>
-              <div className="font-light text-xs pt-2 leading-4 pb-5 ">
-                Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
-              </div>
-              <button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button>
+              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
+              Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.</div>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
             </div>
-          </div>
+              </div>
+            </div>
+          </div></Link>
+          <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg ">
+            <div >
+              <Image className="w-full"
+                src="/portfolio_mockup_sm_final.png"
+                alt="Portfolio"
+                width={1136}
+                height={772}
+
+              />
+            </div>
+            <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
+              <div className="font-display text-lg text-neutral-600">
+                My Brand: Portfolio
+              </div>
+              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+                Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
+              </div>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
+              </div>
+            </div>
+          </div></Link>
 
 
         </div>
@@ -236,7 +251,7 @@ export default function Home() {
             </nav>
           </div>
           <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright ©2023 All rights reserved
           </div>
         </div>
 

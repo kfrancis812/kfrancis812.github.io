@@ -48,7 +48,7 @@ export default function Home() {
           <div className="flex flex-row flex-wrap-reverse justify-between text-sm">
             <div className="flex flex-col md:w-6/12">
               <div className="pt-20 md:pl-20 pl-10 font-display text-4xl font-normal text-darkpgray">
-                Hey there, <span className="text-darkpurple"> Kristin here</span> 👋
+                Hey there, <span className="text-[#795A95]"> Kristin here</span> 👋
 
               </div>
               <div className="pt-3 md:pl-20 pl-10 pr-10 text-xl font-light leading-7 text-darkpgray">
@@ -56,8 +56,8 @@ export default function Home() {
 
               </div>
               <div className="md:pl-20 pl-10 pt-5 flex flex-row">
-                <button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">VIEW PROJECTS</button>
-                <button className="ml-5 pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral tracking-wide">CONTACT ME</button>
+              <Link href="/projects"><button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">VIEW PROJECTS</button></Link>
+              <Link href="/contact"><button className="ml-5 pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral tracking-wide">CONTACT ME</button></Link>
               </div>
             </div>
             <div className="pr-10 md:w-6/12 pl-10">
@@ -74,10 +74,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-row text-sm w-full md:-mt-48 pb-20 pt-20">
+          <div className="flex flex-row text-sm w-full lg:-mt-44 pb-20 md:-mt-18 pt-20">
             <div className="flex flex-col flex-1">
               <div className="md:pl-20 pl-10 mb-4 font-display text-xl font-normal text-darkpgray">
-                My Specialities
+                My <span className="text-darkpurple">Specialities</span>
               </div>
               <div className="md:pl-20 pl-10  pr-10 md:pr-20 grid grid-cols-1 md:grid-cols-3 gap-4 ">
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5">
@@ -111,14 +111,14 @@ export default function Home() {
 
           </div>
         </div>
-        <div className="flex flex-col items-center font-display text-4xl font-normal pt-20 text-darkpgray">
-          Work & Projects
+        <div className="flex flex-row justify-center font-display text-4xl font-normal pt-20 text-darkpgray">
+        <span className="text-[#795A95] ">Work</span> &nbsp;&&nbsp; <span className="text-[#795A95]">Projects</span>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-          <div className="flex flex-col w-full bg-tan rounded-lg sm:mb-16">
+        <Link href="/projects/landingpage"><div className="flex flex-col w-full bg-tan rounded-lg sm:mb-16">
             <div  >
               <Image className="w-full"
-                src="/gt-landingpage.png"
+                src="/landingpage_small.png"
                 alt="Landing Page"
                 width={568}
                 height={365}
@@ -130,17 +130,27 @@ export default function Home() {
                 Landing Page Creation & Optimization
               </div>
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
-                Created landing pages with focused messaging based on prior page path. This improved ad conversion rate by 125%.
+              Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
               </div>
-              <div className="self-end">
-              <Link href="/projects/landingpage"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px] ">
+              <Image className="hover:bg-[url('/arrow_circle_right_hover.png')]"
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+               
+
+              />
+            </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col w-full bg-tan rounded-lg sm:mt-16">
+          </div></Link>
+          <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg sm:mt-16">
             <div >
               <Image className="w-full"
-                src="/myportfolio.png"
+                src="/portfolio_mockup_sm_final.png"
                 alt="Portfolio"
                 width={568}
                 height={365}
@@ -154,17 +164,26 @@ export default function Home() {
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
               </div>
-              <div className="self-end">
-              <Link href="/projects/portfolio"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
+          </div></Link>
 
-          <div className="flex flex-col w-full bg-tan rounded-lg sm:mb-16 sm:-mt-16">
+          <Link href="/projects/watercolor"><div className="flex flex-col w-full bg-tan rounded-lg sm:mb-16 sm:-mt-16">
             <div>
               <Image className="w-full"
                 src="/cat-watercolor-2.png"
-                alt="Landing Page"
+                alt="Watercolor Painting"
                 width={568}
                 height={365}
 
@@ -177,16 +196,25 @@ export default function Home() {
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
                 Along with graphic design and user experience, I enjoy watercolor painting in my spare time.
               </div>
-              <div className="self-end">
-              <Link href="/projects/watercolor"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col w-full bg-tan rounded-lg mt-16 -mt-0">
+          </div></Link>
+          <Link href="/projects/flyer"><div className="flex flex-col w-full bg-tan rounded-lg mt-16 -mt-0">
             <div>
               <Image className="w-full"
                 src="/bridal_show_small_2.png"
-                alt="Landing Page"
+                alt="Bridal Show Flyer"
                 width={568}
                 height={365}
 
@@ -199,11 +227,20 @@ export default function Home() {
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
               </div>
-              <div className="self-end">
-              <Link href="/projects/flyer"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
+          </div></Link>
         </div>
         <div className="flex flex-row p-10 pb-20 justify-center">
         <Link href="/projects"><button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">VIEW MORE PROJECTS</button></Link>
@@ -225,7 +262,7 @@ export default function Home() {
             </nav>
           </div>
           <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright ©2023 All rights reserved
           </div>
         </div>
       </main>

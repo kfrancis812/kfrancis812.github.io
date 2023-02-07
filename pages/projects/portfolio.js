@@ -55,7 +55,7 @@ export default function Home() {
             <div className="w-full bg-gradient-to-tr from-tan to-vlightpurple rounded-lg ">
               <Image className="w-full"
                 src="/portfolio_lg.png"
-                alt="Landing Page"
+                alt="Portfolio"
                 width={5000}
                 height={3000}
 
@@ -87,7 +87,7 @@ export default function Home() {
                   The Problem & Current Situation
                 </div>
                 <div className="font-light text-base pt-2 leading-5">
-                  Since I&apos;ve been mainly focused in marketing, unfortunately, I don&apos;t have a lot of samples of my work that I can share so I decided to use my portfolio as a chance to create something from scratch and show my process. </div>
+                Unfortunately, I don&apos;t have a lot of samples of my work that I can share so I decided to use my portfolio as a chance to create something from scratch and show my process. </div>
 
               </div>
             </div>
@@ -171,10 +171,10 @@ export default function Home() {
           </div>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-          <div className="flex flex-col w-full bg-tan rounded-lg ">
+        <Link href="/projects/landingpage"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div  >
               <Image className="w-full"
-                src="/gt-landingpage.png"
+                src="/landingpage_small.png"
                 alt="Landing Page"
                 width={568}
                 height={365}
@@ -186,14 +186,24 @@ export default function Home() {
                 Landing Page Creation & Optimization
               </div>
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
-                Created landing pages with focused messaging based on prior page path. This improved ad conversion rate by 125%.
+              Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
+          
               </div>
-              <div className="self-end">
-                <Link href="/projects/landingpage"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral text-[12px] self-end tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col w-full bg-tan rounded-lg mt-16 -mt-0">
+          </div></Link>
+          <Link href="/projects/flyer"><div className="flex flex-col w-full bg-tan rounded-lg mt-16 -mt-0">
             <div>
               <Image className="w-full"
                 src="/bridal_show_small_2.png"
@@ -210,11 +220,20 @@ export default function Home() {
               <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
                 Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
               </div>
-              <div className="self-end">
-                <Link href="/projects/flyer"><button className="pt-2 pb-2 pr-6 pl-6 rounded-full font-display bg-coral text-[#262626] hover:bg-ltcoral  text-[12px] tracking-wide">LEARN MORE</button></Link>
+              <div className="self-end flex flex-row pt-2 pb-2  pl-6">
+              <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+            </div>
               </div>
             </div>
-          </div>
+          </div></Link>
 
 
         </div>
@@ -232,7 +251,7 @@ export default function Home() {
             </nav>
           </div>
           <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright ©2023 All rights reserved
           </div>
         </div>
 

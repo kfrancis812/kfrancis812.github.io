@@ -45,7 +45,7 @@ export default function AboutMe() {
         </div>
         <div className="flex flex-col">
           <div className="pt-14 font-display text-4xl font-normal text-center">
-            About Me
+            About <span className="text-[#795A95]">Me </span>
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center">
           I’m a marketing professional with over ten years of experience who loves working with tech, design, and optimizing. My aim is to always focus on the data without sacrificing the aesthetics.
@@ -72,7 +72,7 @@ export default function AboutMe() {
             <div className="h-0.5 w-5 bg-[#D9D9D9]">
             </div>
             <div className="font-display text-2xl font-normal pl-2">
-            My Background
+            My <span className="text-darkpurple">Background</span>
             </div>
           </div>
                 <div className="font-light text-base pt-5 leading-6">
@@ -93,7 +93,7 @@ export default function AboutMe() {
             <div className="h-0.5 w-5 bg-[#D9D9D9]">
             </div>
             <div className="font-display text-2xl font-normal pl-2">
-            My Specialities
+            My <span className="text-darkpurple">Specialities</span>
             </div>
           </div>
           <div className="pt-8 grid grid-cols-1 md:grid-cols-3 gap-4 ">
@@ -130,7 +130,7 @@ export default function AboutMe() {
         <div className="flex flex-col flex-1 pb-20  md:pl-20 pl-10 pr-10 md:pr-20 bg-[#F0E8EB]">
         <div className="flex flex-col">
           <div className="pt-14 font-display text-4xl font-normal text-center">
-          Interest peaked? 🤩 
+          Interest <span className="text-[#795A95]">peaked?</span> 🤩 
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center">
           Let’s make something special. 
@@ -155,7 +155,7 @@ export default function AboutMe() {
               </nav>
             </div>
             <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2022 All rights reserved
+            Copyright © All rights reserved
               </div>          
             </div>
         

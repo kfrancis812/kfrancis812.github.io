@@ -136,7 +136,7 @@ export default function Home() {
             </div>
             <div className="w-full bg-[#F0E8EB] rounded-lg snap-center">
               <Image
-                src="/travelagency_v2.png"
+                src="/travelagency_V2.png"
                 alt="Landing Page 3"
                 width={721}
                 height={618}

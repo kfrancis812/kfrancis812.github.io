@@ -6,7 +6,7 @@ import { Oswald } from '@next/font/google'
 
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['300'] })
-const oswald = Oswald({ subsets: ['latin'] })
+const oswald = Oswald({ subsets: ['latin'], weight: ['400']  })
 
 export default function Home() {
   return (

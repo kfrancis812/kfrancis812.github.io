@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="flex flex-row flex-wrap-reverse justify-between text-sm">
             <div className="flex flex-col md:w-6/12">
-              <div className="pt-20 md:pl-20 pl-10 font-display text-4xl font-normal text-darkpgray">
+              <div className="pt-20 md:pl-20 pl-10 font-display text-4xl font-semibold md:font-normal text-darkpgray">
                 Hey there, <span className="text-[#795A95]"> Kristin here</span> 👋
 
               </div>

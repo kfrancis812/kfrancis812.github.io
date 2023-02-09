@@ -40,7 +40,7 @@ export function MobileMenuButton() {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="flex flex-row justify-between text-sm w-full p-10 ">
+        <div className="flex flex-row justify-between text-sm w-full p-10">
 
             <div className=" shrink-0">
                 <Link href="/"><Image

@@ -4,6 +4,10 @@ import Link from 'next/link'
 import { Roboto } from '@next/font/google'
 import { Oswald } from '@next/font/google'
 
+import {Footer} from "../../components/Footer";
+
+import {MobileMenuButton} from "../../components/Navigation";
+
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['300'] })
 const oswald = Oswald({ subsets: ['latin'] })
@@ -18,36 +22,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.jpg" />
       </Head>
       <main className="flex flex-col">
-        <div className="flex flex-row justify-between text-sm bg-vlightpurple">
-
-          <div className="p-10 shrink-0">
-          <Link href="/"><Image
-              src="/logo.svg"
-              alt="Kristin Francis"
-              width={100}
-              height={24}
-              priority
-            /></Link>
-          </div>
-
-          <div>
-            <nav className="hidden md:flex space-x-4 p-10 font-light" >
-              {[
-                ['HOME', '/'],
-                ['WORK', '/projects'],
-                ['ABOUT', '/about_me'],
-                ['CONTACT', '/contact'],
-              ].map(([title, url]) => (
-                <Link href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
-              ))}
-            </nav>
-          </div>
-        </div>
+      <MobileMenuButton/>
         <div className="flex flex-col">
-          <div className="pt-14 font-display text-4xl font-normal text-center">
+          <div className="pt-14 font-display text-4xl font-normal text-center text-gray-800">
             Landing Page Creation & Optimization
           </div>
-          <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center">
+          <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center text-gray-600">
             Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
           </div>
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">
@@ -69,23 +49,23 @@ export default function Home() {
             <div className="flex flex-row items-center">
               <div className="h-0.5 w-5 bg-[#D9D9D9]">
               </div>
-              <div className="font-display text-3xl font-normal pl-2">
+              <div className="font-display text-3xl font-normal pl-2 text-gray-800">
                 Overview
               </div>
             </div>
             <div className="flex flex-row flex-wrap justify-between">
               <div className="flex flex-col pt-5 md:w-6/12 pr-5">
-                <div className="font-display text-lg">
+                <div className="font-display text-lg text-gray-800">
                   Project Description
                 </div>
-                <div className="font-light text-base pt-2 leading-5">
+                <div className="font-light text-base pt-2 leading-5 text-gray-600">
                   For the past ten years, I&apos;ve created landing pages with tools such as unbounce and wordpress. Then optimized the pages by a/b testings copy, images, and layout. Recently I&apos;ve started desiging pages from scratch as seen above.</div>
                   </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
-                <div className="font-display text-lg">
+                <div className="font-display text-lg text-gray-800" >
                   The Problem & Current Situation
                 </div>
-                <div className="font-light text-base pt-2 leading-5">
+                <div className="font-light text-base pt-2 leading-5 text-gray-600">
                 Unfortunately, I don&apos;t have a lot of samples of my work that I can share so I decided to design a few landing pages as examples. </div>
 
               </div>
@@ -97,19 +77,19 @@ export default function Home() {
           <div className="flex flex-row items-center">
             <div className="h-0.5 w-5 bg-[#D9D9D9]">
             </div>
-            <div className="font-display text-3xl font-normal pl-2">
+            <div className="font-display text-3xl font-normal pl-2 text-gray-800">
               The Solution
             </div>
           </div>
           <div className="flex flex-row flex-wrap justify-between">
             <div className="flex flex-col pt-5 pr-5">
-              <div className="font-display text-lg">
+              <div className="font-display text-lg text-gray-800">
                 The Process
               </div>
-              <div className="font-light text-base pt-2 leading-5">
+              <div className="font-light text-base pt-2 leading-5 text-gray-600">
                To start, I create a moodboard for inspiration and lo-fidelty wireframes or drawings. Then I begin designing the mobile version of the landing page to ensure the design will work for mobile. Then I work on the desktop version and continue to make tweaks and adjustments.        </div>
           
-              <div className="font-light text-base pt-2 leading-5">
+              <div className="font-light text-base pt-2 leading-5 text-gray-600">
                When optimizing, I start by reviewing the performance of the pages such as click rate, click through rate, and conversion rate. I identify areas for opportunity and start setting up tests.       
               </div>
             </div>
@@ -156,17 +136,17 @@ export default function Home() {
 
           <div className="flex flex-row flex-wrap justify-between">
             <div className="flex flex-col pt-5 md:w-6/12 pr-5">
-              <div className="font-display text-lg">
+              <div className="font-display text-lg text-gray-800">
                 The Results
               </div>
-              <div className="font-light text-base pt-2 leading-5">
+              <div className="font-light text-base pt-2 leading-5 text-gray-600">
                 Throughout my career I&apos;ve created numerous  This project resulted in an improved conversion rate of 125%.</div>
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
-              <div className="font-display text-lg">
+              <div className="font-display text-lg text-gray-800">
                 What I did/didn&apos;t do
               </div>
-              <div className="font-light text-base pt-2 leading-5">
+              <div className="font-light text-base pt-2 leading-5 text-gray-600">
                 I worked closely with the design team to make sure everything stayed on brand. The pages were started from a template. I created all the landings pages and set up all the tests.</div>
 
             </div>
@@ -176,11 +156,11 @@ export default function Home() {
         <div className="flex flex-row items-center pt-20 md:pl-20 pl-10 pr-10 md:pr-20 ">
           <div className="h-0.5 w-5 bg-[#D9D9D9]">
           </div>
-          <div className="font-display text-3xl font-normal pl-2">
+          <div className="font-display text-3xl font-normal pl-2 text-gray-800">
             Check out another project
           </div>
         </div>
-        <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
+        <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  pb-20 grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
         <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div >
               <Image className="w-full"
@@ -247,23 +227,7 @@ export default function Home() {
 
         </div>
         
-        <div className="flex flex-row flex-wrap justify-between bg-darkpurple mt-28">
-          <div>
-            <nav className=" space-x-4 p-10 font-light" >
-              {[
-                ['HOME', '/'],
-                ['WORK', '/projects'],
-                ['ABOUT', '/about_me'],
-                ['CONTACT', '/contact'],
-              ].map(([title, url]) => (
-                <Link href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
-              ))}
-            </nav>
-          </div>
-          <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2023 All rights reserved
-          </div>
-        </div>
+        <Footer/>
 
 
 

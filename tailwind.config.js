@@ -1,4 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+
+
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -19,11 +24,12 @@ module.exports = {
         'ltgolden':'#F8D5A0',
         'darkpgray':'#332D39',
       },
+      fontFamily: {  
+        'display': ['Oswald'],
+        'sans': ['Roboto', ...fontFamily.sans],
+        },
     },
-    fontFamily: {  
-    'display': ['Oswald', 'sans-serif'],
-    'sans': ['Roboto', 'sans-serif'],
-    },
+    
 },
 plugins: [],
 }

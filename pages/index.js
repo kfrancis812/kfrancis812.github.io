@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Roboto } from '@next/font/google'
-import { Oswald } from '@next/font/google'
+import {Footer} from "../components/Footer";
 
+import {MobileMenuButton} from "../components/Navigation";
 
-const roboto = Roboto({ subsets: ['latin'], weight: ['300'] })
-const oswald = Oswald({ subsets: ['latin'], weight: ['400']  })
 
 export default function Home() {
+  
+
   return (
     <>
       <Head>
@@ -18,32 +18,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.jpg" />
       </Head>
       <main className="flex flex-col">
+        
         <div className="bg-gradient-to-tl from-vlightpurple via-[#F9F8FC] to-white">
-          <div className="flex flex-row justify-between text-sm w-full ">
-
-            <div className="p-10 shrink-0">
-            <Link href="/"><Image
-                src="/logo.svg"
-                alt="Kristin Francis"
-                width={100}
-                height={24}
-                priority
-              /></Link>
-            </div>
-
-            <div>
-              <nav className="hidden md:flex space-x-4 p-10 font-light" >
-                {[
-                  ['HOME', '/'],
-                  ['WORK', '/projects'],
-                  ['ABOUT', '/about_me'],
-                  ['CONTACT', '/contact'],
-                ].map(([title, url]) => (
-                  <Link href={url} key={url} className="font-display text-xl font-normal rounded-lg px-3 py-2 text-darkpgray font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
-                ))}
-              </nav>
-            </div>
-          </div>
+        <MobileMenuButton/>
 
           <div className="flex flex-row flex-wrap-reverse justify-between text-sm">
             <div className="flex flex-col md:w-6/12">
@@ -246,25 +223,10 @@ export default function Home() {
         <Link href="/projects"><button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">VIEW MORE PROJECTS</button></Link>
         </div>
 
+        <Footer/>
 
 
-        <div className="flex flex-row flex-wrap justify-between bg-darkpurple mt-20">
-          <div>
-            <nav className=" space-x-4 p-10 font-light" >
-              {[
-                ['HOME', '/index'],
-                ['WORK', '/projects'],
-                ['ABOUT', '/about_me'],
-                ['CONTACT', '/contact'],
-              ].map(([title, url]) => (
-                <Link href={url} key={url} className="font-display text-white text-xl font-normal rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-[#F0E8EB] hover:text-slate-900">{title}</Link>
-              ))}
-            </nav>
-          </div>
-          <div className="text-white md:p-10 pl-10 pb-10" >
-            Copyright ©2023 All rights reserved
-          </div>
-        </div>
+        
       </main>
 
     </>

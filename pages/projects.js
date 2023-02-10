@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       <main className="flex flex-col">
       <MobileMenuButton/>
-        <div className="flex flex-col">
+        <div className="flex flex-col "> 
           <div className="pt-14 font-display text-4xl font-normal text-center text-gray-800">
           <span className="text-[#795A95]">Projects </span>& <span className="text-[#795A95]">Work</span>
           </div>
@@ -44,10 +44,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600 ">
+              <div className="font-display text-xl text-neutral-600 ">
                 Landing Page Creation & Optimization
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 h-22 lg:h-24">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 h-22 lg:h-24">
               Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
           
               </div>
@@ -76,10 +76,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600 ">
+              <div className="font-display text-xl text-neutral-600 ">
               My Brand: Portfolio
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 h-22 lg:h-24">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 h-22 lg:h-24">
               Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website. 
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
@@ -109,10 +109,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600 ">
+              <div className="font-display text-xl text-neutral-600 ">
                 Traditional Watercolor Painting
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 h-18 md:h-24 lg:h-18">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 h-18 md:h-24 lg:h-18">
                 Along with graphic design and user experience, I enjoy watercolor painting in my spare time.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
@@ -140,10 +140,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600 ">
+              <div className="font-display text-xl text-neutral-600 ">
                 Bridal Show Flyer
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 h-18 md:h-24 lg:h-18">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 h-18 md:h-24 lg:h-18">
                 Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
@@ -171,10 +171,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600 ">
+              <div className="font-display text-xl text-neutral-600 ">
                 My Brand: Business Cards
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 h-18 md:h-24 lg:h-18">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 h-18 md:h-24 lg:h-18">
               Designed my logo, brand and style guides for my portfolio and buisness cards.
 
               </div>

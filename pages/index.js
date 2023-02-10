@@ -53,32 +53,32 @@ export default function Home() {
 
           <div className="flex flex-row text-sm w-full lg:-mt-44 pb-20 md:-mt-18 pt-20">
             <div className="flex flex-col flex-1">
-              <div className="md:pl-20 pl-10 mb-4 font-display text-xl font-normal text-gray-800">
+              <div className="md:pl-20 pl-10 mb-4 font-display text-2xl font-normal text-gray-800">
                 My <span className="text-darkpurple">Specialities</span>
               </div>
               <div className="md:pl-20 pl-10  pr-10 md:pr-20 grid grid-cols-1 md:grid-cols-3 gap-4 ">
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5">
-                  <div className="font-display text-neutral-600 text-base">
+                  <div className="font-display text-neutral-600 text-lg">
                     Marketing & Marketing Operations
                   </div>
-                  <div className=" text-sm pt-2 leading-5 text-neutral-500">
+                  <div className=" text-sm pt-2 leading-5 text-neutral-800">
                     Need help setting up an email or a landing page? A new tool? Not sure how your campaigns are performing? Want your campaigns to perform better? I can help.
                   </div>
                 </div>
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5 text-gray-800">
-                  <div className="font-display text-neutral-600 text-base">
+                  <div className="font-display text-neutral-600 text-lg">
                     User Experience & Design
                   </div>
-                  <div className="text-sm pt-2 leading-5 text-neutral-500">
+                  <div className="text-sm pt-2 leading-5 text-neutral-800">
                     From graphic design to creating a great user experience, I will help create the best design that will help drive traffic, conversions, and revenue.
                   </div>
 
                 </div>
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5 text-gray-800">
-                  <div className="font-display text-neutral-600 text-base">
+                  <div className="font-display text-neutral-600 text-lg">
                     Organization & Process Creation
                   </div>
-                  <div className="text-sm pt-2 leading-5 text-neutral-500">
+                  <div className="text-sm pt-2 leading-5 text-neutral-800">
                     Struggling with a project? Let me help optimize or create a new process. I’ll take a look at what you’re currently doing and review feedback from the team to optimize the process.
                   </div>
 
@@ -103,10 +103,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600 ">
+              <div className="font-display text-xl text-neutral-600 ">
                 Landing Page Creation & Optimization
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
               Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
@@ -135,10 +135,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
-              <div className="font-display text-lg text-neutral-600 ">
+              <div className="font-display text-xl text-neutral-600 ">
                 My Brand: Portfolio
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
@@ -167,10 +167,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 Traditional Watercolor Painting
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
                 Along with graphic design and user experience, I enjoy watercolor painting in my spare time.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
@@ -198,10 +198,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 Bridal Show Flyer
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">

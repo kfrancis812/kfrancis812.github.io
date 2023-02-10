@@ -75,27 +75,27 @@ export default function AboutMe() {
           </div>
           <div className="pt-8 grid grid-cols-1 md:grid-cols-3 gap-4 ">
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5">
-                  <div className="font-display text-neutral-600 text-base">
+                  <div className="font-display text-neutral-600 text-lg">
                     Marketing & Marketing Operations
                   </div>
-                  <div className="text-sm pt-2 leading-5 text-neutral-500">
+                  <div className="text-sm pt-2 leading-5 text-neutral--800">
                     Need help setting up an email or a landing page? A new tool? Not sure how your campaigns are performing? Want your campaigns to perform better? I can help.
                   </div>
                 </div>
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5 text-darkpgray">
-                  <div className="font-display text-neutral-600 text-base">
+                  <div className="font-display text-neutral-600 text-lg">
                     User Experience & Design
                   </div>
-                  <div className="text-sm pt-2 leading-5 text-neutral-500">
+                  <div className="text-sm pt-2 leading-5 text-neutral-800">
                     From graphic design to creating a great user experience, I will help create the best design that will help drive traffic, conversions, and revenue.
                   </div>
 
                 </div>
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5 text-darkpgray">
-                  <div className="font-display text-neutral-600 text-base">
+                  <div className="font-display text-neutral-600 text-lg">
                     Organization & Process Creation
                   </div>
-                  <div className="text-sm pt-2 leading-5 text-neutral-500">
+                  <div className="text-sm pt-2 leading-5 text-neutral-800">
                     Struggling with a project? Let me help optimize or create a new process. I’ll take a look at what you’re currently doing and review feedback from the team to optimize the process.
                   </div>
 

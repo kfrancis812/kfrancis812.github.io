@@ -147,7 +147,7 @@ export default function Home() {
                 What I did/didn&apos;t do
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-              The design on this page are pages I designed for this portfolio, they are not live pages and haven't been tested.</div>
+              The design on this page are pages I designed for this portfolio, they are not live pages and haven&apos;t been tested.</div>
 
             </div>
           </div>

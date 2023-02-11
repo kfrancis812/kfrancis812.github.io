@@ -84,7 +84,7 @@ export default function Home() {
             <div className="flex flex-col pt-5 pr-5">
               
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                I enjoy creating realistic watercolor paintings so I usually start from a photo. I use a lightbox to trace the photo onto watercolor paper. I&apos;ve tried a lot of different paints and paper but my go tos are Arches 140lb and Winsor & Newton Professional Watcolor paints. 
+                I enjoy creating realistic watercolor paintings so I usually start from a photo. I use a lightbox to trace the photo onto watercolor paper. I&apos;ve tried a lot of different paints and paper but my go tos are Arches 140lb and Winsor & Newton Professional Watercolor paints. 
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function Home() {
                 What I did/didn&apos;t do
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-               Most time I use royalty-free images or photos I&apos;ve taken myself. I ultize a third party vendor to create prints of my paintings. </div>
+               Most time I use royalty-free images or photos I&apos;ve taken myself. I ultize a third party vendor to create high quality giclee prints of my paintings. </div>
 
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function Home() {
             Check out another project
           </div>
         </div>
-        <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
+        <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray pb-24">
         <Link href="/projects/landingpage"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div  >
               <Image className="w-full"
@@ -166,10 +166,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 Landing Page Creation & Optimization
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5">
               Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
           
               </div>
@@ -198,10 +198,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 My Brand: Portfolio
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">

@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-row text-sm w-full lg:-mt-44 pb-20 md:-mt-18 pt-20">
+          <div className="flex flex-row text-sm w-full lg:-mt-44 pb-10 md:-mt-18 pt-20">
             <div className="flex flex-col flex-1">
               <div className="md:pl-20 pl-10 mb-4 font-display text-2xl font-normal text-gray-800">
                 My <span className="text-darkpurple">Specialities</span>
@@ -87,6 +87,21 @@ export default function Home() {
             </div>
 
           </div>
+          <Link target="_blank" href="https://www.linkedin.com/in/kristin-francis/"><div className="flex flex-row  pb-20 justify-center">
+          <button className="pr-1 font-display text-coral text-[18px]  self-end tracking-wide">VIEW FULL RESUME ON LINKEDIN</button>
+              <div className="pt-[3px]">
+              <Image 
+                src="/arrow_circle_right.png"
+                alt="Arrow"
+                width={20}
+                height={20}
+
+              />
+              </div>
+        </div></Link>
+        
+
+
         </div>
         <div className="flex flex-row justify-center font-display text-4xl font-normal pt-20 text-gray-800">
         <span className="text-[#795A95] ">Work</span> &nbsp;&&nbsp; <span className="text-[#795A95]">Projects</span>

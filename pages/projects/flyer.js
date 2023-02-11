@@ -162,10 +162,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 Landing Page Creation & Optimization
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5">
               Created landing pages and optimized pages by a/b testing images, headlines, and layout to optimize leads and conversions.
           
               </div>
@@ -194,10 +194,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 My Brand: Portfolio
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">

@@ -140,14 +140,14 @@ export default function Home() {
                 The Results
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                Throughout my career I&apos;ve created numerous  This project resulted in an improved conversion rate of 125%.</div>
+              Throughout my career I&apos;ve created numerous landing pages and many more tests on the landing pages. Improving performance such as click through rate and conversion rate.</div>
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
               <div className="font-display text-lg text-gray-800">
                 What I did/didn&apos;t do
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                I worked closely with the design team to make sure everything stayed on brand. The pages were started from a template. I created all the landings pages and set up all the tests.</div>
+              The design on this page are pages I designed for this portfolio, they are not live pages and haven't been tested.</div>
 
             </div>
           </div>
@@ -172,10 +172,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 My Brand: Portfolio
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
@@ -203,10 +203,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
-              <div className="font-display text-lg text-neutral-600">
+              <div className="font-display text-xl text-neutral-600">
                 Bridal Show Flyer
               </div>
-              <div className="text-sm pt-2 leading-5 text-neutral-500 pb-5 ">
+              <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
                 Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">

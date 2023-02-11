@@ -62,6 +62,9 @@ export default function AboutMe() {
 
             
             </div>
+            <div className="flex flex-row  pt-10 pb-10 ">
+          <Link target="_blank" href="https://www.linkedin.com/in/kristin-francis/"><button className="pt-2 pb-2 pr-8 pl-8 rounded-full font-display bg-golden text-[#262626] hover:bg-ltgolden tracking-wide">VIEW FULL RESUME ON LINKEDIN</button></Link>
+        </div>
           </div>
 
         </div>

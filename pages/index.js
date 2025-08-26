@@ -139,11 +139,11 @@ export default function Home() {
               </div>
             </div>
           </div></Link>
-          <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg sm:mt-16">
+          <Link href="/projects/digital_print"><div className="flex flex-col w-full bg-tan rounded-lg sm:mt-16">
             <div >
               <Image className="w-full"
-                src="/portfolio_mockup_sm_final.png"
-                alt="Portfolio"
+                src="/deck_small.png"
+                alt="Digital & Print Design"
                 width={568}
                 height={365}
 
@@ -151,10 +151,11 @@ export default function Home() {
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
               <div className="font-display text-xl text-neutral-600 ">
-                My Brand: Portfolio
+                                Digital Marketing Overhaul
+
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
-                Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
+              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads."
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
               <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
@@ -171,11 +172,11 @@ export default function Home() {
             </div>
           </div></Link>
 
-          <Link href="/projects/watercolor"><div className="flex flex-col w-full bg-tan rounded-lg sm:mb-16 sm:-mt-16">
+          <Link href="/projects/digital_design"><div className="flex flex-col w-full bg-tan rounded-lg sm:mb-16 sm:-mt-16">
             <div>
               <Image className="w-full"
-                src="/cat-watercolor-2.png"
-                alt="Watercolor Painting"
+                src="/db-portfolio.png"
+                alt="Digital Design"
                 width={568}
                 height={365}
 
@@ -183,10 +184,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
               <div className="font-display text-xl text-neutral-600">
-                Traditional Watercolor Painting
+                Cross-Platform Marketing Materials
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
-                Along with graphic design and user experience, I enjoy watercolor painting in my spare time.
+              Designed integrated marketing assets for a popular arcade-restaurant chain, crafting everything from eye-catching social posts and targeted ads to promotional emails and event flyers that captured the brand's energetic, family-friendly atmosphere.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
               <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>

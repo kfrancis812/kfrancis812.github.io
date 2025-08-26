@@ -23,10 +23,10 @@ export default function Home() {
       <MobileMenuButton/>
         <div className="flex flex-col">
           <div className="pt-14 font-display text-4xl font-normal text-center text-gray-800">
-            Social & Email Design
+  Cross-Platform Marketing Materials
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center text-gray-600">
-            Designed a flyer for a bridal show to explain how the service worked and drive traffic to the website post event.
+              Designed integrated marketing assets for a popular arcade-restaurant chain, crafting everything from eye-catching social posts and targeted ads to promotional emails and event flyers that captured the brand's energetic, family-friendly atmosphere.
 
           </div>
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">
@@ -57,15 +57,15 @@ export default function Home() {
                   Project Description
                 </div>
                 <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                  An online platform where customers can rent menswears without visiting a store. This platform allows you to easily rent formalwear by entering a few measurements.                    </div>
+                  The client needed a cohesive set of marketing materials to promote seasonal events, new menu items, and special promotions across multiple channels. 
+                  </div>
               </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5 text-gray-600">
                 <div className="font-display text-lg text-gray-800">
                   The Request
                 </div>
                 <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                  The company was attending an event to collect leads. The goal was to create a flyer to help drive conversions and traffic back to the website post event.
-
+They wanted to maintain brand consistency while creating fresh, engaging content that would resonate with their diverse audience of families, young adults, and birthday party hosts.
                 </div>
               </div>
             </div>
@@ -88,7 +88,8 @@ export default function Home() {
                 The Process
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                With this project the first task was to go through our collection of photos to find some that would work for this project. After that I started designing the flyer and making the edits needed to the photos. 
+                I developed an integrated marketing approach that balanced the brand's high-energy arcade atmosphere with their family-dining appeal. The process began with analyzing their existing brand guidelines and target audience segments, then creating a flexible design system that could adapt across digital and print formats.
+For social media, I designed vibrant, action-packed posts featuring bold typography and dynamic layouts that would stand out in crowded feeds. Email campaigns focused on clear hierarchy and compelling calls-to-action, while print flyers emphasized eye-catching visuals and essential event information for quick scanning.
               </div>
             </div>
           </div>
@@ -130,14 +131,37 @@ export default function Home() {
                 The Results
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                The show was a success and we took this flyer to many other shows! We made tweaks along the way to optimize the design and process.</div>
+                The campaign successfully increased social media engagement by maintaining visual consistency across all touchpoints while allowing each piece to serve its specific purpose. The integrated approach helped reinforce brand recognition and created a seamless experience whether customers encountered the brand online or in-person.
+
+                </div>
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
               <div className="font-display text-lg text-gray-800">
                 What I did/didn’t do
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-               I designed the piece from a blank slate. I didn&apos;t take the photos or write out the copy.</div>
+               What I Did
+
+  <ul className="list-disc list-inside font-light text-base pt-2 leading-6 text-gray-600">
+    <li>Visual design for all marketing materials</li>
+    <li>Adaptation of brand guidelines across multiple formats</li>
+    <li>Content layout and typography optimization</li>
+    <li>Color palette and imagery selection</li>
+  </ul>
+
+
+  <div className="list-disc list-inside font-light text-base pt-2 leading-6 text-gray-600">
+    What I Didn’t Do
+  </div>
+  <ul className="list-disc list-inside font-light text-base pt-2 leading-6 text-gray-600">
+    <li>Copywriting (worked with existing brand copy)</li>
+    <li>Photography (utilized provided brand assets)</li>
+    <li>Campaign strategy development</li>
+    <li>Performance analytics and measurement</li>
+  </ul>
+
+               
+               </div>
 
             </div>
           </div>

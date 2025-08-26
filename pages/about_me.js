@@ -53,12 +53,15 @@ export default function AboutMe() {
             </div>
           </div>
                 <div className="font-light text-base pt-5 leading-6 text-gray-600">
-                Over the past ten years I&apos;ve worked with B2B and B2C companies, managing marketing tech stacks, analyzing data, optimizing campaigns and much more. I have a passion to dive into a problem, review feedback and determine the best path forward whether it&apos;s a process or a campaign optimization. I&apos;ve worked for mostly smaller teams which has given me the opportunity to work in many different areas of marketing, starting off in design to event management then to email marketing and demand generation to marketing operations.  </div>
+                Throughout my decade-long career, I've partnered with B2B and B2C companies to build and optimize their marketing ecosystems. From managing complex tech stacks and analyzing campaign performance to developing creative assets and streamlining processes, I thrive on solving multifaceted marketing challenges.
+                </div>
               </div>
               <div className="font-light text-base pt-5 leading-6 text-gray-600">
-              In 2022, I was part of the tech layoffs so was able to take some time to evaluate what I enjoyed most about my roles. The two things that stood out the most were problem-solving and design. So my goal in 2023 is to find a full time position that&apos;s focused on user experience. In the meantime, I&apos;m available for contract work!   </div>
+              My experience spans the full marketing spectrum—starting in design and expanding into event management, email marketing, demand generation, and marketing operations. Working primarily with agile, smaller teams has given me the versatility to adapt quickly and contribute across diverse marketing functions.
+              </div>
               <div className="font-light text-base pt-5 leading-6 text-gray-600">
-              I live in Louisville, Kentucky with my husband and our three fur-babies. I love to travel and enjoy exploring the outdoors. In my down time, I enjoy reading, puzzles, playing ultimate frisbee, and video games.   </div>
+              I'm based in Louisville, Kentucky, where I live with my husband and our fur-babies. When I'm not optimizing campaigns or planning out designs, you'll find me traveling, hiking, reading, working on puzzles, playing ultimate frisbee, or spending time with my cats.
+              </div>
 
             
             </div>
@@ -82,7 +85,7 @@ export default function AboutMe() {
                     Marketing & Marketing Operations
                   </div>
                   <div className="text-sm pt-2 leading-5 text-neutral--800">
-                    Need help setting up an email or a landing page? A new tool? Not sure how your campaigns are performing? Want your campaigns to perform better? I can help.
+                    From campaign setup and tool implementation to performance analysis and optimization strategies, I help businesses build marketing systems that scale and deliver measurable results.
                   </div>
                 </div>
                 <div className="pt-5 flex flex-col w-full bg-tan rounded-lg p-5 text-darkpgray">
@@ -90,7 +93,7 @@ export default function AboutMe() {
                     User Experience & Design
                   </div>
                   <div className="text-sm pt-2 leading-5 text-neutral-800">
-                    From graphic design to creating a great user experience, I will help create the best design that will help drive traffic, conversions, and revenue.
+                   I create compelling visual experiences and intuitive user journeys that drive engagement, conversions, and revenue growth through thoughtful design and strategic thinking.
                   </div>
 
                 </div>
@@ -99,7 +102,7 @@ export default function AboutMe() {
                     Organization & Process Creation
                   </div>
                   <div className="text-sm pt-2 leading-5 text-neutral-800">
-                    Struggling with a project? Let me help optimize or create a new process. I’ll take a look at what you’re currently doing and review feedback from the team to optimize the process.
+                    I excel at identifying inefficiencies and creating streamlined workflows. By analyzing current processes and gathering team feedback, I develop solutions that improve productivity and outcomes.
                   </div>
 
                 </div>

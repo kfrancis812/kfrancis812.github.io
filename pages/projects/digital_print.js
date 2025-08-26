@@ -14,7 +14,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Flyer</title>
+        <title>                Digital Marketing Overhaul
+</title>
         <meta name="description" content="Bridal Show Flyer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.jpg" />
@@ -23,10 +24,10 @@ export default function Home() {
       <MobileMenuButton/>
         <div className="flex flex-col">
           <div className="pt-14 font-display text-4xl font-normal text-center text-gray-800">
-            Digital & Print Design
+                Digital Marketing Overhaul
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center text-gray-600">
-            Designed a flyer for a bridal show to explain how the service worked and drive traffic to the website post event.
+              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads."
 
           </div>
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">
@@ -57,15 +58,14 @@ export default function Home() {
                   Project Description
                 </div>
                 <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                  An online platform where customers can rent menswears without visiting a store. This platform allows you to easily rent formalwear by entering a few measurements.                    </div>
+A premium deck construction company needed to refresh their existing marketing materials and improve lead generation.                    </div>
               </div>
               <div className="flex flex-col pt-5 md:w-6/12 md:pl-5 text-gray-600">
                 <div className="font-display text-lg text-gray-800">
                   The Request
                 </div>
                 <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                  The company was attending an event to collect leads. The goal was to create a flyer to help drive conversions and traffic back to the website post event.
-
+They required updated landing pages, refreshed project portfolios, and new advertising materials that would better showcase their craftsmanship and attract qualified homeowners planning outdoor renovation projects.
                 </div>
               </div>
             </div>
@@ -88,8 +88,7 @@ export default function Home() {
                 The Process
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                With this project the first task was to go through our collection of photos to find some that would work for this project. After that I started designing the flyer and making the edits needed to the photos. 
-              </div>
+I created an enhanced marketing approach that built upon their existing brand foundation while elevating their market positioning. The process started with analyzing their current materials and target customer demographics, then developing an updated visual approach that better communicated quality and expertise.              </div>
             </div>
           </div>
 
@@ -130,14 +129,36 @@ export default function Home() {
                 The Results
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-                The show was a success and we took this flyer to many other shows! We made tweaks along the way to optimize the design and process.</div>
+The refreshed marketing materials created a more professional and cohesive brand presence across all touchpoints. The updated designs better showcased the company's work quality and expertise, supporting their positioning in the premium market segment.
+            </div>
             </div>
             <div className="flex flex-col pt-5 md:w-6/12 md:pl-5">
               <div className="font-display text-lg text-gray-800">
                 What I did/didn’t do
               </div>
               <div className="font-light text-base pt-2 leading-5 text-gray-600">
-               I designed the piece from a blank slate. I didn&apos;t take the photos or write out the copy.</div>
+               What I Did
+
+  <ul className="list-disc list-inside font-light text-base pt-2 leading-6 text-gray-600">
+    <li>Landing page design and user experience optimization</li>
+    <li>Multi-page sales collateral layout and design</li>
+    <li>Digital and print advertisement creation</li>
+    <li>Brand visual consistency across all materials</li>
+  </ul>
+
+
+  <div className="list-disc list-inside font-light text-base pt-2 leading-6 text-gray-600">
+    What I Didn’t Do
+  </div>
+  <ul className="list-disc list-inside font-light text-base pt-2 leading-6 text-gray-600">
+    <li>Copywriting (collaborated with existing sales messaging)</li>
+    <li>Website development/coding</li>
+    <li>Photography (worked with client-provided project images)</li>
+    <li>Advertising campaign management and media buying</li>
+  </ul>
+
+               
+               </div>
 
             </div>
           </div>

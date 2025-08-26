@@ -164,8 +164,8 @@ export default function Home() {
         <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div >
               <Image className="w-full"
-                src="/portfolio_mockup_sm_final.png"
-                alt="Portfolio"
+                src="/db-portfolio.png"
+                alt="Digital Design"
                 width={1136}
                 height={772}
 
@@ -173,10 +173,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg">
               <div className="font-display text-xl text-neutral-600">
-                My Brand: Portfolio
+              Cross-Platform Marketing Materials
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
-                Designed my portfolio from start to finish. Starting with lo-fi protoypes to coding the final website.
+              Designed integrated marketing assets for a popular arcade-restaurant chain, crafting everything from eye-catching social posts and targeted ads to promotional emails and event flyers that captured the brand's energetic, family-friendly atmosphere.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
               <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
@@ -204,10 +204,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
               <div className="font-display text-xl text-neutral-600">
-                Bridal Show Flyer
+                Event Marketing Flyer Design
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
-                Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
+                Created a compelling event flyer that effectively explained the service process and included strategic calls-to-action to convert event attendees into qualified website visitors and potential clients.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
               <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>

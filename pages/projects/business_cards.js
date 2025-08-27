@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
+        <title>Portfolio test</title>
         <meta name="description" content="My Brand: Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.jpg" />

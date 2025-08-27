@@ -1,6 +1,6 @@
-// next.config.js (or .mjs / ts)
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',           // makes `next build` write to ./out
-  images: { unoptimized: true } // needed for Pages image hosting
-};
-module.exports = nextConfig;   // or `export default nextConfig` for ESM
+  reactStrictMode: true,
+}
+
+module.exports = nextConfig

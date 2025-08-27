@@ -81,7 +81,7 @@ export default function Home() {
                 Digital Marketing Overhaul
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 h-22 lg:h-24">
-              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads."
+              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads.
 
           
               </div>

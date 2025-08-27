@@ -23,10 +23,10 @@ export default function Home() {
       <MobileMenuButton/>
         <div className="flex flex-col">
           <div className="pt-14 font-display text-4xl font-normal text-center text-gray-800">
-            Bridal Show Flyer
+           Event Marketing Flyer Design
           </div>
           <div className="pt-3 md:pl-20 pl-10 pr-10 md:pr-20 pb-7 text-lg font-light leading-6 text-center text-gray-600">
-            Designed a flyer for a bridal show to explain how the service worked and drive traffic to the website post event.
+                Created a compelling event flyer that effectively explained the service process and included strategic calls-to-action to convert event attendees into qualified website visitors and potential clients.
 
           </div>
           <div className="md:pl-20 pl-10  pr-10 md:pr-20">

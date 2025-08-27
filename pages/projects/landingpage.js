@@ -161,7 +161,7 @@ export default function Home() {
           </div>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20  pb-20 grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-        <Link href="/projects/portfolio"><div className="flex flex-col w-full bg-tan rounded-lg ">
+        <Link href="/projects/digital_design"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div >
               <Image className="w-full"
                 src="/db-portfolio.png"

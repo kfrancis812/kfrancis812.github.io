@@ -155,7 +155,7 @@ export default function Home() {
 
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
-              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads."
+              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads.
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
               <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>
@@ -215,10 +215,11 @@ export default function Home() {
             </div>
             <div className="flex flex-col bg-[#F3EDF8] pt-5 pr-7 pl-7 pb-5 rounded-b-lg ">
               <div className="font-display text-xl text-neutral-600">
-                Bridal Show Flyer
+                Event Marketing Flyer Design
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5 ">
-                Designed a flyer for a bridal show to show how the service worked and drive traffic to the website post event.
+                Created a compelling event flyer that effectively explained the service process and included strategic calls-to-action to convert event attendees into qualified website visitors and potential clients.
+
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">
               <button className="pr-1 font-display text-coral text-[16px]  self-end tracking-wide">LEARN MORE</button>

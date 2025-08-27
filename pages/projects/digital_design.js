@@ -175,7 +175,7 @@ For social media, I designed vibrant, action-packed posts featuring bold typogra
           </div>
         </div>
         <div className="md:pl-20 pl-10 pt-10 pr-10 md:pr-20 pb-20 grid grid-cols-1 sm:grid-cols-2 gap-10 text-darkpgray">
-        <Link href="/projects/landingpage"><div className="flex flex-col w-full bg-tan rounded-lg ">
+        <Link href="/projects/digital_design"><div className="flex flex-col w-full bg-tan rounded-lg ">
             <div  >
               <Image className="w-full"
              src="/deck_small.png"
@@ -190,7 +190,7 @@ For social media, I designed vibrant, action-packed posts featuring bold typogra
                 Digital Marketing Overhaul
               </div>
               <div className="text-md pt-2 leading-5 text-neutral-500 pb-5">
-              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads."
+              Developed cohesive marketing materials for a premium deck construction business, crafting landing pages, detailed project showcase collateral, and strategic ad campaigns that highlighted custom design capabilities and attracted qualified leads.
           
               </div>
               <div className="self-end flex flex-row pt-2 pb-2  pl-6">

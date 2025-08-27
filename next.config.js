@@ -1,6 +1,10 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  output: 'export',
+  images: {
+    unoptimized: true, // 👈 disables next/image optimization for static export
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
